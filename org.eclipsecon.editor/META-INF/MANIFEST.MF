@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Demo Editor
+Bundle-SymbolicName: org.eclipsecon.editor
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EclipseCon Europe 2017
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
