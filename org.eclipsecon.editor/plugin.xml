@@ -18,5 +18,12 @@
             editorId="org.eclipse.ui.genericeditor.GenericEditor">
       </editorContentTypeBinding>
    </extension>
+   <extension
+         point="org.eclipse.ui.genericeditor.presentationReconcilers">
+      <presentationReconciler
+            class="org.eclipsecon.editor.KeywordsPresentationReconciler"
+            contentType="org.eclipsecon.editor.javaContentType">
+      </presentationReconciler>
+   </extension>
 
 </plugin>
