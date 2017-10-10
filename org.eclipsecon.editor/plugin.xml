@@ -19,9 +19,20 @@
       </editorContentTypeBinding>
    </extension>
    <extension
+         point="org.eclipse.tm4e.registry.grammars">
+      <grammar
+            path="grammar/Java.plist"
+            scopeName="source.java">
+      </grammar>
+      <scopeNameContentTypeBinding
+            contentTypeId="org.eclipsecon.editor.javaContentType"
+            scopeName="source.java">
+      </scopeNameContentTypeBinding>
+   </extension>
+   <extension
          point="org.eclipse.ui.genericeditor.presentationReconcilers">
       <presentationReconciler
-            class="org.eclipsecon.editor.KeywordsPresentationReconciler"
+            class="org.eclipse.tm4e.ui.text.TMPresentationReconciler"
             contentType="org.eclipsecon.editor.javaContentType">
       </presentationReconciler>
    </extension>

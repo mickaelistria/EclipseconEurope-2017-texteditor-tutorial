@@ -9,4 +9,6 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui.genericeditor;bundle-version="1.1.0",
  org.eclipse.ui.workbench;bundle-version="3.111.0",
  org.eclipse.ui;bundle-version="3.109.0",
- org.eclipse.jface.text;bundle-version="3.13.0"
+ org.eclipse.jface.text;bundle-version="3.13.0",
+ org.eclipse.tm4e.ui;bundle-version="0.1.0",
+ org.eclipse.tm4e.registry;bundle-version="0.1.0"
