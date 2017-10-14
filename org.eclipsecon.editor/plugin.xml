@@ -43,5 +43,17 @@
             path="grammar/language-configuration.json">
       </languageConfiguration>
    </extension>
+   <extension
+         point="org.eclipse.lsp4e.languageServer">
+      <server
+            class="org.eclipsecon.editor.JDTLSConnectionProvider"
+            id="org.eclipsecon.editor.jdtls"
+            label="JDT Language Server">
+      </server>
+      <contentTypeMapping
+            contentType="org.eclipsecon.editor.javaContentType"
+            id="org.eclipsecon.editor.jdtls">
+      </contentTypeMapping>
+   </extension>
 
 </plugin>

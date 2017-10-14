@@ -12,5 +12,5 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.jface.text;bundle-version="3.13.0",
  org.eclipse.tm4e.ui;bundle-version="0.1.0",
  org.eclipse.tm4e.registry;bundle-version="0.1.0",
- org.eclipse.lsp4e;bundle-version="0.4.0",
- org.eclipse.tm4e.languageconfiguration;bundle-version="0.1.0"
+ org.eclipse.tm4e.languageconfiguration;bundle-version="0.1.0",
+ org.eclipse.lsp4e;bundle-version="0.4.0"
