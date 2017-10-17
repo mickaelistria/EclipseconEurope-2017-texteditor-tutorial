@@ -36,5 +36,12 @@
             contentType="org.eclipsecon.editor.javaContentType">
       </presentationReconciler>
    </extension>
+   <extension
+         point="org.eclipse.tm4e.languageconfiguration.languageConfigurations">
+      <languageConfiguration
+            contentTypeId="org.eclipsecon.editor.javaContentType"
+            path="grammar/language-configuration.json">
+      </languageConfiguration>
+   </extension>
 
 </plugin>
